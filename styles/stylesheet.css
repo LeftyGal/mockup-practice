@@ -65,10 +65,9 @@ article {
   
  /* figure we want to center that using margin, size font */
 figure {
-  
-  display: block;
-  
-  
+      display: block;
+      margin:auto;
+      width:40%;
 }
 
 p.center {
@@ -78,7 +77,8 @@ p.center {
 
 footer {
   /* images float left and center on page (float the images, create links and center links) */
-  
+
+float: left
   
   }
 
