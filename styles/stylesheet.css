@@ -7,6 +7,15 @@ body {
       left: 100px;
       }
 
+/* unvisited link*/
+a link {
+  color: white;}
+  
+/*selected link*/
+a:active{
+  color: red
+        }
+
 /* Center on page, set width */
 
 .content-wrapper {
@@ -22,33 +31,20 @@ header h1{
       color: blueviolet;
       text-align: center;
       font-size: 3em;
-        }
+ }
 
-.main nav {
-  /* change background color, remove bullets, add border on each individual nav element.  create, float the links, padding  to center  the content within the links , width on links, font color, white, font family sans serif, */
-  background-color: blueviolet;
-  font color: white;
-  font-family: sans-serif monospace;}
-  
-  <a href="Photo 1" class="">Photo 1</a>
-  <a href="Photo 2" class="">Photo 2</a>
-  <a href="Photo 3" class="">Photo 3</a>
-  
-  
-
-<div class="topnav" id="myTopnav">  
-
-<a href="#home">Home</a>  
-<a href="#news">News</a> 
-<a href="#contact">Contact</a> 
-<a href="#about">About</a>
-
-</div>
+.top nav a {
+  float: left;
+  display: block;
+  background color: mediumpurple;
+  text-align: center;
+  padding: 20px 20px
+  font color: white
+  }
 
 
 aside {
   /* background color, float clear, clear both, float left, font color  */
-  background-color: mediumpurple;
   clear: both;
   float: left;
   padding:
@@ -58,11 +54,13 @@ aside {
 
 aside ul {
   /* clear both. links?? */
+  
 }
   
 article {
   /* background-color, float to the right?, font size  */
-  
+  background color: lightgray;
+  font-size: 100%
   }
   
  /* figure we want to center that using margin, size font */
@@ -72,6 +70,11 @@ figure {
   
   
 }
+
+p.center {
+  text-align: center;
+  color: black;
+  }
 
 footer {
   /* images float left and center on page (float the images, create links and center links) */
