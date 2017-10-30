@@ -35,11 +35,14 @@ header h1{
 
 .top nav a {
   float: left;
-  display: block;
+  display: inline-block;
   background color: mediumpurple;
   text-align: center;
   padding: 20px 20px
-  font color: white
+  font color: white;
+  border-right: .1 em solid black;
+  
+    
   }
 
 
