@@ -5,24 +5,28 @@ body {
       background-color: darkgray;
       top: auto;
       left: 100px;
+      text-align: center;
       }
 
 /* unvisited link*/
 a link {
-  color: white;}
+  color: mediumpurple;
+  text-decoration: none;
+  padding: 14em 25em;
+  display: inline-block;
+        }
   
 /*selected link*/
 a:active{
-  color: red
+  color: greenyellow
         }
 
 /* Center on page, set width */
 
 .content-wrapper {
-    width: 5em 5em;
-    text-align: center;
-    
-}
+      width: 5em 5em;
+      text-align: center;
+                  }
 
 /*make bigger and change color and style (change font family san seerif) and center */
 
@@ -31,39 +35,57 @@ header h1{
       color: blueviolet;
       text-align: center;
       font-size: 3em;
- }
+      font-family: sans-serif monospace;
+          }
 
-.top nav a {
-  float: left;
+
+  .main-nav ul a  {
   display: inline-block;
-  background color: mediumpurple;
+  float: left;
+  text-decoration: none;
+  border-right: .2em solid black;
+  margin: 0 1em;
+  padding: 1em 3rem 1em 1.2em;
+  width: 60em;
+  height: 5em;
+  background-color: mediumpurple;
+  color: yellow;
   text-align: center;
-  padding: 20px 20px
-  font color: white;
   border-right: .1 em solid black;
-  
-    
-  }
+  list-style-type: none;
+  overflow: visible;
+      }
+
+li {
+    background-color: mediumpurple;
+    padding: 0.500em;
+    float: left;
+      }
 
 
 aside {
   /* background color, float clear, clear both, float left, font color  */
   clear: both;
   float: left;
-  padding:
-  
-  
+  padding: 8em 8em;
+  background-color: mediumpurple;
+  font color: white;
+  width: 12.5em 12.5em;
+  border-left: 12.5em solid black;
+  border-right: 12.5em solid black;
 }
 
 aside ul {
   /* clear both. links?? */
+  clear: both
   
 }
   
 article {
   /* background-color, float to the right?, font size  */
   background color: lightgray;
-  font-size: 100%
+  font-size: 100%;
+  float: right;
   }
   
  /* figure we want to center that using margin, size font */
@@ -71,19 +93,28 @@ figure {
       display: block;
       margin:auto;
       width:40%;
+  }
+
+figcaption {
+    text-align: center;
+    color: black;
 }
 
-p.center {
-  text-align: center;
-  color: black;
+
+
   }
-
-footer {
-  /* images float left and center on page (float the images, create links and center links) */
-
-float: left
+#footer div{
+  /* images float left and center on page (float the images, create links and center links) */}
   
-  }
+#footer ul
+    {
+  display:inline;
+    float: left;
+    }
+  
+#footer a{
+    float: center;
+    text-align: center}
 
 
 
