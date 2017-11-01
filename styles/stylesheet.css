@@ -32,13 +32,17 @@ header h1{
       margin: 0 10em 0em ;
       padding: 0;
       float: left;
+      border-right: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+      border-top: 1px solid #000000;
+      border-left: 1px solid #000000;
         }
 
 #nav ul {
         display: inline-block;
         list-style: none;
         background-color: mediumpurple;
-}
+        }
 
 #nav li {
         display: inline;
@@ -50,28 +54,22 @@ header h1{
   padding: 0 30px;
   color: white;
 }
-    
-    
-    
-
-    
-
-
 
 aside {
   /* background color, float clear, float left, font color  */
   clear: both;
   float: left;
   padding: 8em 8em;
-  font color: white;
   width: 12.5em 12.5em;
-  border-left: 12.5em solid black;
-  border-right: 12.5em solid black;
+  text-align: center;
+  
+  
 }
 
 aside ul {
   /* clear both. links?? */
     clear: both;
+    font color: white;
         }
   
 article {
@@ -93,21 +91,17 @@ figcaption {
             }
 
 
-#footer div{
-  /* images float left and center on page (float the images, create links and center links) */
-  text-align: center;
-  float: left;}
-  
-#footer ul
-    {
-    display:inline;
-    float: left;
-    text-align: center
-    }
-  
-#footer a{
-    float: center;
-    text-align: center}
+/* images float left and center on page (float the images, create links and center links) */
+
+.icons {width: 10em; margin: 0 auto;
+        display: inline;}
+.socialIcons img{
+        height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+
 
 
 
