@@ -1,28 +1,16 @@
-/* set global font family, change background color*/
 
-body {
+body { /* set global font family, change background color*/
       font-family: sans-serif, monospace;
-      background-color: darkgray;
-      top: auto;
-      left: 100px;
-      }
-
-/* unvisited link*/
-a link {
-  color: white;}
-  
-/*selected link*/
-a:active{
-  color: red
+      text-align: center;
+      background-color: grey;
         }
 
 /* Center on page, set width */
-
 .content-wrapper {
-    width: 5em 5em;
-    text-align: center;
-    
-}
+          max-width: 200px;
+          text-align: center;
+          margin: auto;
+                  }
 
 /*make bigger and change color and style (change font family san seerif) and center */
 
@@ -31,59 +19,95 @@ header h1{
       color: blueviolet;
       text-align: center;
       font-size: 3em;
- }
+      font-family: sans-serif monospace;
+          }
 
-.top nav a {
+/*change background color, border on each nav element, float links,center content within links, font color, font family*/
+
+#nav   {
+      text-align: center;
+      background-color: mediumpurple;
+      border-bottom-style: solid;
+      width: 75%;
+      margin: 0 10em 0em ;
+      padding: 0;
+      float: left;
+        }
+
+#nav ul {
+        display: inline-block;
+        list-style: none;
+        background-color: mediumpurple;
+}
+
+#nav li {
+        display: inline;
+        }
+
+#nav a {
   float: left;
-  display: inline-block;
-  background color: mediumpurple;
-  text-align: center;
-  padding: 20px 20px
-  font color: white;
-  border-right: .1 em solid black;
-  
+  text-decoration: none;
+  padding: 0 30px;
+  color: white;
+}
     
-  }
+    
+    
+
+    
+
 
 
 aside {
-  /* background color, float clear, clear both, float left, font color  */
+  /* background color, float clear, float left, font color  */
   clear: both;
   float: left;
-  padding:
-  
-  
+  padding: 8em 8em;
+  font color: white;
+  width: 12.5em 12.5em;
+  border-left: 12.5em solid black;
+  border-right: 12.5em solid black;
 }
 
 aside ul {
   /* clear both. links?? */
-  
-}
+    clear: both;
+        }
   
 article {
   /* background-color, float to the right?, font size  */
-  background color: lightgray;
-  font-size: 100%
-  }
+      font-size: 100%;
+      float: right;
+        }
   
  /* figure we want to center that using margin, size font */
 figure {
       display: block;
       margin:auto;
       width:40%;
-}
+      }
 
-p.center {
-  text-align: center;
-  color: black;
-  }
+figcaption {
+        text-align: center;
+        color: black;
+            }
 
-footer {
+
+#footer div{
   /* images float left and center on page (float the images, create links and center links) */
-
-float: left
+  text-align: center;
+  float: left;}
   
-  }
+#footer ul
+    {
+    display:inline;
+    float: left;
+    text-align: center
+    }
+  
+#footer a{
+    float: center;
+    text-align: center}
 
 
 
