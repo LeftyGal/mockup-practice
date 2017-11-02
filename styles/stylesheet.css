@@ -74,10 +74,9 @@ aside {
       }
 
 aside ul {
-  /*clear both. links */
-    clear: both;
-    font color: purple;
-        }
+  /*clear both, links */
+      clear: both;
+          }
   
 article {
   /* background-color, float to the right?, font size  */
