@@ -1,16 +1,24 @@
 
-body { /* set global font family, change background color*/
+body  { 
+  /* set global font family, change background color*/
       font-family: sans-serif, monospace;
       text-align: center;
-      background-color: grey;
+      background-color: white;
         }
 
-/* Center on page, set width */
 .content-wrapper {
-          max-width: 200px;
+          max-width: 80%;
           text-align: center;
-          margin: auto;
-                  }
+          background-color: white;
+          padding-top: 0;
+          margin-top: 0;
+          border-left: black;
+          border-style: solid;
+          border-right: black;
+          border-style: solid;
+          padding-bottom: 0px;
+          border-width: 0 8em 0;
+                }
 
 /*make bigger and change color and style (change font family san seerif) and center */
 
@@ -19,7 +27,7 @@ header h1{
       color: blueviolet;
       text-align: center;
       font-size: 3em;
-      font-family: sans-serif monospace;
+      font-family:monospace, sans-serif;
           }
 
 /*change background color, border on each nav element, float links,center content within links, font color, font family*/
@@ -53,29 +61,29 @@ header h1{
   text-decoration: none;
   padding: 0 30px;
   color: white;
-}
+      }
 
 aside {
   /* background color, float clear, float left, font color  */
   clear: both;
   float: left;
   padding: 8em 8em;
-  width: 12.5em 12.5em;
+  width: 12em;
   text-align: center;
-  
-  
-}
+  background-color:mediumpurple;
+      }
 
 aside ul {
-  /* clear both. links?? */
+  /*clear both. links */
     clear: both;
-    font color: white;
+    font color: purple;
         }
   
 article {
   /* background-color, float to the right?, font size  */
       font-size: 100%;
       float: right;
+      background-color: lightgray;
         }
   
  /* figure we want to center that using margin, size font */
@@ -93,15 +101,20 @@ figcaption {
 
 /* images float left and center on page (float the images, create links and center links) */
 
-.icons {width: 10em; margin: 0 auto;
-        display: inline;}
+.icons {
+        width: 10em; margin: 0 auto;
+        display: inline;
+        background: white;
+        float: none;
+        }
+
 .socialIcons img{
         height: 50px;
-  width: 50px;
-  margin-right: 10px;
+        width: 50px;
+        margin-right: 10px;
+        background: white;
+    
 }
-
-
 
 
 
